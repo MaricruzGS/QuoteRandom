@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+button {
+  cursor: pointer;
+  border-style: none;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteBox {
+  margin: 5rem;
+  font-family: cursive;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  background-color: white;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+
+.quote{
+  display: flex;
+}
+
+.bxs-quote-alt-left {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 5rem;
+}
+
+.quote__quote {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.quote__author {
+  display: flex;
+  flex-direction: row-reverse;
+  line-height: 6rem;
+  height: 5rem;
+}
+
+.quote--button {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.bx-right-arrow {
+  font-size: 3.5rem;
+  color: white;  
+}
